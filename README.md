@@ -1,6 +1,6 @@
 # Automated Folder Monitoring and Patient Report Generator
 
-This Python script was developed for **Hamilton Health Sciences (HHSC)** to streamline the process of generating patient-specific genomic reports from data processed by SoftGenetics Geneticist Assistant. It is highly customized for the workflows, file structures, and reporting requirements of HHSC and may have limited applicability outside this context.
+This Python script was developed for **Hamilton Health Sciences (HHSC)** to streamline the process of generating patient-specific genomic reports from data processed by SoftGenetics Geneticist Assistant. It is highly customized for the workflows, file structures, and reporting requirements of HHSC and may have limited applicability outside this context.  It scans a queue folder for a text file containing the directories for which a report needs to be generated and triggers the reporting script.
 
 ---
 
@@ -55,7 +55,7 @@ pip install pandas python-docx requests
 
 3. **Run the Script**:
    ```bash
-   python script_name.py
+   python auto_reporter.py
    ```
 
 4. **Place `.txt` Files**:
