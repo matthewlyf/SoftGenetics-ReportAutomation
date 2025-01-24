@@ -98,10 +98,4 @@ pip install pandas python-docx requests
 
 ---
 
-## License
 
-This project is licensed under the MIT License.
-
----
-
-If you need further customization or support to adapt this script for other workflows, feel free to reach out!
